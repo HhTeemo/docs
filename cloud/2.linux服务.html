@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>linux 服务</title>
+    <meta name="generator" content="VuePress 1.8.1">
+    <link rel="icon" href="/docs/favicon.ico">
+    <meta name="description" content="阡陌拾光的随机记录">
+    <meta name="author" content="阡陌拾光">
+    <meta name="keywords" content="计算机，网络安全">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.d36127fc.css" as="style"><link rel="preload" href="/docs/assets/js/app.3eb96753.js" as="script"><link rel="preload" href="/docs/assets/js/2.fe2f2116.js" as="script"><link rel="preload" href="/docs/assets/js/10.f0e8803c.js" as="script"><link rel="prefetch" href="/docs/assets/js/11.db627387.js"><link rel="prefetch" href="/docs/assets/js/12.6d037d26.js"><link rel="prefetch" href="/docs/assets/js/13.c2cc00df.js"><link rel="prefetch" href="/docs/assets/js/14.83a6b658.js"><link rel="prefetch" href="/docs/assets/js/15.52493eb6.js"><link rel="prefetch" href="/docs/assets/js/3.221c0ca6.js"><link rel="prefetch" href="/docs/assets/js/4.b42677c3.js"><link rel="prefetch" href="/docs/assets/js/5.e6d56040.js"><link rel="prefetch" href="/docs/assets/js/6.c9e7127b.js"><link rel="prefetch" href="/docs/assets/js/7.b983d2cc.js"><link rel="prefetch" href="/docs/assets/js/8.6ace368c.js"><link rel="prefetch" href="/docs/assets/js/9.76ecf518.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.d36127fc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/img/hero.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link">
+  about
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="os" class="dropdown-title"><span class="title">os</span> <span class="arrow down"></span></button> <button type="button" aria-label="os" class="mobile-dropdown-title"><span class="title">os</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Linux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/LinuxBasic.html" class="nav-link">
+  LinuxBasic
+</a></li><li class="dropdown-subitem"><a href="/docs/os/Nginx.html" class="nav-link">
+  Ngnix
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Windows
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/cmd.html" class="nav-link">
+  cmd
+</a></li><li class="dropdown-subitem"><a href="/docs/os/powershell.html" class="nav-link">
+  powershell
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link">
+  about
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="os" class="dropdown-title"><span class="title">os</span> <span class="arrow down"></span></button> <button type="button" aria-label="os" class="mobile-dropdown-title"><span class="title">os</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Linux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/LinuxBasic.html" class="nav-link">
+  LinuxBasic
+</a></li><li class="dropdown-subitem"><a href="/docs/os/Nginx.html" class="nav-link">
+  Ngnix
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Windows
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/cmd.html" class="nav-link">
+  cmd
+</a></li><li class="dropdown-subitem"><a href="/docs/os/powershell.html" class="nav-link">
+  powershell
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/docs/cloud/" aria-current="page" class="sidebar-link">/cloud/</a></li><li><a href="/docs/cloud/1.linux.html" class="sidebar-link">Linux 基础</a></li><li><a href="/docs/cloud/2.linux服务.html" class="active sidebar-link">linux 服务</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/cloud/2.linux服务.html#web-服务" class="sidebar-link">web 服务</a></li><li class="sidebar-sub-header"><a href="/docs/cloud/2.linux服务.html#nginx" class="sidebar-link">Nginx</a></li><li class="sidebar-sub-header"><a href="/docs/cloud/2.linux服务.html#包过滤防火墙" class="sidebar-link">包过滤防火墙</a></li></ul></li><li><a href="/docs/cloud/3.shell.html" class="sidebar-link">Shell</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="linux-服务"><a href="#linux-服务" class="header-anchor">#</a> linux 服务</h1> <h2 id="web-服务"><a href="#web-服务" class="header-anchor">#</a> web 服务</h2> <p>http</p> <p>lamp平台</p> <p>linux apache mysql php</p> <p>发帖留言 提交 php把你的发言  提交数据中</p> <p>php 登录数据调用你所有的留言 将你的留言产生html语句</p> <p>显示到主页上</p> <h3 id="apache"><a href="#apache" class="header-anchor">#</a> apache</h3> <p>对外服务</p> <p>ip地址 端口号 80 443</p> <ol><li><p>启动服务</p> <p>service httpd start</p></li> <li><p>验证</p> <p>ss -antpl | grep 80</p> <p>a 代表所有</p> <p>n 代表数字显示的ip</p> <p>t tcp协议</p> <p>p 进程号</p> <p>l 监听状态</p></li> <li><p>主页建立</p> <p>vim /var/www/html/index.html</p></li> <li><p>主配置文件分析</p> <p>vim /etc/httpd/conf/httpd.conf</p> <p>listen 80 #监听端口</p> <p>Options Indexes FollowSymLinks #禁用后，关闭共享</p> <p>Options FollowSymLinks</p></li></ol> <p>find /etc -name httpd</p> <p>httpd 所在路径  /etc/rc.d/init.d/httpd</p> <p>​		  快捷链接  /etc/init.d/httpd</p> <p>访问控制设定</p> <div class="language- extra-class"><pre class="language-text"><code># Order allow,deny
+# Allow from all
+
+1.仅允许192.168.1.2主机访问主页
+Order allow,deny	白名单
+Allow from 192.168.1.2
+
+Order deny,allow	黑名单
+Allow from 192.168.1. 网段
+
+2.对页面进行加密，先输入用户名再输入密码才可以进入
+用户名 密码 自己配置
+htpasswd -c /rtc/httpd/conf/httpuser tom   建立用户验证文件
+
+在配置文件中
+authtype basic 基础弹窗
+authname “提示信息”
+authserfile 用户验证文件路径
+require valid-user 只有有效用户才能访问
+</code></pre></div><h3 id="mysql"><a href="#mysql" class="header-anchor">#</a> mysql</h3> <div class="language- extra-class"><pre class="language-text"><code>yum install mysql-server -y 安装mysql
+service mysqld start	启动mysql服务
+mysqladmin -u root -p password &quot;123456&quot; 设置mysqlroot用户
+mysql -u root -p    用户登录
+</code></pre></div><h3 id="php"><a href="#php" class="header-anchor">#</a> php</h3> <div class="language- extra-class"><pre class="language-text"><code>umount /dev/cdrom 卸载挂载
+mount /dev/cdrom /media 挂载光盘到/media下
+
+yum install php php-mysql phpmbstring
+vim /etc/php.ini	配置php文件
+short_open_tag = On 
+
+</code></pre></div><h2 id="nginx"><a href="#nginx" class="header-anchor">#</a> Nginx</h2> <p>支持庞大的并发访问，稳定，低损耗</p> <h3 id="安装nginx"><a href="#安装nginx" class="header-anchor">#</a> 安装Nginx</h3> <ul><li><p>编译安装之前确保已存在开发环境软件包</p> <p>yum -y install pcre-devel zlib-devel</p></li> <li><p>创建运行用户和组(程序用户建立)</p> <p>useradd -M -s /sbin//nologin nginx</p></li> <li><p>编译安装</p> <p>tar zxf nginx</p> <p>./configure --prefix=/usr/local/nginx --user=nginx --group=nginx</p> <p>make &amp;&amp; make install</p></li> <li><p>启用</p> <p>/usr/local/nginx/sbin/nginx 启动脚本</p> <p>-t 选项可检查配置文件错误</p></li> <li><p>验证</p> <p>ss -antpl | grep 80</p> <p>浏览器访问 http://127.0.0.1</p></li> <li><p>停用</p> <p>killall -s HUP nginx 重载</p> <p>killall -s QUIT nginx 停止</p></li> <li><p>主页位置</p> <p>/usr/loacl/nginx/html</p></li></ul> <p>nginx.conf 主配置文件，该文件包括三大部分：全局配置、I/O事件、HTTP配置</p> <div class="language- extra-class"><pre class="language-text"><code>CoreModule核心模块
+
+user www;                       #Nginx进程所使用的用户
+worker_processes 1;             #Nginx运行的work进程数量(建议与CPU数量一致或auto)
+error_log /log/nginx/error.log  #Nginx错误日志存放路径
+pid /var/run/nginx.pid          #Nginx服务运行后产生的pid进程号
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>events事件模块
+
+events {            
+	worker_connections  //每个worker进程支持的最大连接数
+    use epool;          //事件驱动模型, epoll默认
+   	//use [kqueue | rtsig | epoll | /dev/poll | select | poll]; epoll模型是linux2.6以上版本内核中的高性能网络I/O模型。如果跑在FreeBSD上面，就用kqueue模型。
+}
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    http内核模块
+    //公共的配置定义在http{}
+    http {  //http层开始
+    ...    
+       
+       //使用Server配置网站, 每个Server{}代表一个网站(简称虚拟主机)
+        'server' {
+            listen       80;        //监听端口, 默认80
+            server_name  localhost; //提供服务的域名或主机名
+            access_log host.access.log  //访问日志
+           
+           //控制网站访问路径
+            'location' / {
+                root   /usr/share/nginx/html;   //存放网站代码路径
+                index  index.html index.htm;    //服务器返回的默认页面文件
+            }
+            //指定错误代码, 统一定义错误页面, 错误代码重定向到新的Locaiton
+            error_page   500 502 503 504  /50x.html;	//内部错误反抗页面
+            location = /50x.html {		//错误页面配置
+            root html;
+            }
+        }
+        
+        ...
+        //第二个虚拟主机配置
+        'server' {
+        ...
+        }
+        
+        include /etc/nginx/conf.d/*.conf;  //包含/etc/nginx/conf.d/目录下所有以.conf结尾的文件
+        include mime.types;  //文件扩展名与文件类型映射表
+        default_type application/octet-stream; //默认文件类型
+        sendfile on;			//支持文件发送(下载)
+        keepalive_timeout 65;	//连接保持超时时间，单位是秒
+    }   //http层结束
+</code></pre></div><p>Nginx 实现 PHP 解析</p> <h2 id="包过滤防火墙"><a href="#包过滤防火墙" class="header-anchor">#</a> 包过滤防火墙</h2> <p>iptables 工具</p> <p>4个功能（表）：</p> <p>raw</p> <p>mangle 前两个表实现数据流量的跟踪与整形</p> <p>nat 网络地址转换</p> <p>filter 过滤</p> <p>systcl -p 查看是否开启路由转发</p> <p>iptables -t filter -nvL</p> <p>n 用数字代替ip地址</p> <p>v 显示详细信息</p> <p>L 列出所有信息</p> <p>每个表都有撞门写规则的地方Chain（链）</p> <p>INPUT</p> <p>FORWORD 转发规则链（当源地址192.168.1.1 以及目标地址 172.16.1.20都不是本机地址）</p> <p>OUTPOT 出站链</p> <p>watch -nl iptables -t filter -nvl  防火墙显示信息一秒更新一次</p> <h3 id="iptables-基本语法"><a href="#iptables-基本语法" class="header-anchor">#</a> iptables 基本语法</h3> <p>语法构成</p> <div class="language- extra-class"><pre class="language-text"><code>iptables [-t 表名] 选项 [链名] [条件] [-j 控制类型]
+例：
+iptables -t filter -I INPUT -p tcp --dport 80 -j ACCEPT   允许ping测试
+iptables -t filter -I INPUT -P icmp -j REJECT 	阻止ping测试
+
+</code></pre></div><p>注意事项：</p> <p>不指定表名时，默认指filter表</p> <p>不指定链名时，默认指表内的所有链</p> <p>除非设置链的默认策略，否则必须指定匹配条件</p> <p>选项、链名、控制类型使用大写字母，其余均为小写</p> <p>数据包的常见控制类型：</p> <p>ACCEPT：允许通过</p> <p>DROP：直接丢弃，不给出任何回应</p> <p>REJECT：拒绝通过，必要时会给出提示</p> <p>LOG：记录日志信息，然后传给下一条规则继续匹配</p> <h3 id="iptables-管理选项"><a href="#iptables-管理选项" class="header-anchor">#</a> iptables 管理选项</h3> <h4 id="添加新的规则"><a href="#添加新的规则" class="header-anchor">#</a> 添加新的规则</h4> <p>-A：在链尾追加一条规则</p> <p>-I：在链的开头（或指定序号）插入一条规则</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -t filter -A INPUT -p tcp -j ACCEPT
+iptables -I INPUT -p udp -j ACCEPT
+iptables -I INPUT 2 -p udp -j ACCEPT
+</code></pre></div><h4 id="查看规则列表"><a href="#查看规则列表" class="header-anchor">#</a> 查看规则列表</h4> <p>-L：列出所有的规则表名</p> <p>-n：以数字形式显示地址、端口等信息</p> <p>-v：以更详细的方式显示规则信息</p> <p>--line-number：查看规则时，显示规则的序号</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -t filter -nvL --line-numbers
+</code></pre></div><h4 id="删除、清空规则"><a href="#删除、清空规则" class="header-anchor">#</a> 删除、清空规则</h4> <p>-D：删除链内指定序号（或内容）的一条规则</p> <p>-F：清空所有规则</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -D FORWARD 2
+iptables -F FORWARD
+</code></pre></div><h4 id="设置默认策略"><a href="#设置默认策略" class="header-anchor">#</a> 设置默认策略</h4> <p>-P：为指定的链设置默认规则，默认策略要么是ACCEPT，要么是DROP</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -t filter -P FORWARD DROP
+iptables -P OUTPUT ACCEPT
+</code></pre></div><h4 id="规则匹配条件"><a href="#规则匹配条件" class="header-anchor">#</a> 规则匹配条件</h4> <p>通用匹配</p> <ul><li>可直接使用，不依赖于其他条件或扩展</li> <li>包括网络协议、IP地址、网络接口等条件</li></ul> <p>隐含匹配</p> <ul><li>要求以特定的协议匹配作为前提</li> <li>包括端口、TCP标记、ICMP类型等条件</li></ul> <p>显式匹配</p> <ul><li>要求以“-m 扩展模块”的形式明确指出类型</li> <li>包括多端口、MAC地址、IP范围、数据包状态等条件</li></ul> <p>常见的通用匹配条件</p> <p>协议匹配：-p 协议名</p> <p>地址匹配： -s 源地址、-d 目标地址</p> <p>接口匹配：-i 入站网卡 、-o 出站网卡</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -I INPUT -p icmp -j DROP
+
+iptables -A FORWARD -s 192.168.1.11 -j REJECT
+
+iptables -A INPUT -i eth1 -s 192.168.0.0/16 -j DROP
+</code></pre></div><p>常用的隐含匹配条件</p> <p>端口匹配：--spot 源端口、--dport 目的端口</p> <p>TCP标记匹配：--tcp-flags 检查范围 被设置的标记</p> <p>ICMP类型匹配：--icmp-type ICMP类型</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -A FORWARD -s 192.168.1.0/24 -p udp --dport 53 -j REJECT
+
+iptables -A INPUT -p icmp --icmp-types 8 -i DROP
+8 请求，0 回显，3 不可达
+</code></pre></div><p>常用的显示匹配条件</p> <p>多端口匹配：-m multiport --sport 源端口列表、-m multiport --dport 目的端口列表</p> <p>IP范围匹配：-m iprange --src-range IP范围</p> <p>MAC地址匹配：-m mac --mac-source MAC地址</p> <p>状态匹配：-m state --state 连接状态</p> <div class="language- extra-class"><pre class="language-text"><code>iptables -A INPUT -p tcp -m multiport --dport 25,80,110,143 -j ACCEPT
+
+iptables -A FORWARD -p tcp -m iprange --src-range 192.168.10.0/24
+
+iptbales -I INPUT -p tcp -m state --state ESTABLISHED -j ACCEPT
+</code></pre></div><p>规则的备份及还原</p> <p>导出（备份）规则</p> <p>iptables-save 工具</p> <p>可结合重定向输出保存到指定文件</p> <div class="language- extra-class"><pre class="language-text"><code>iptables-save &gt; /opt/iprules_all.txt
+services iptables save 			永久保存
+</code></pre></div><h3 id="nat-表"><a href="#nat-表" class="header-anchor">#</a> nat 表</h3> <p>网络地址转换</p> <p>源地址转换</p> <p>iptables -t nat -A POSTROUNTING -p tcp -o eth1 -s 192.168.1.0/24 -j SNAT --to-source 12.34.56.78</p> <p>iptables -F FORWARD</p> <p>iptables -t nat -A POSTROUNTING -p tcp -o eth1 -s 192.168.1.0/24 -j MASQUERADE  动态获取源ip</p> <p>目标地址转换</p> <p>iptables -t nat -A PREROUNTING -p tcp -i eth1 -d 12.34.56.80 - -j DNAT --to-destination 192.168.1.1:8080</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2021年2月21日星期日下午5点08分</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/cloud/1.linux.html" class="prev">
+        Linux 基础
+      </a></span> <span class="next"><a href="/docs/cloud/3.shell.html">
+        Shell
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.3eb96753.js" defer></script><script src="/docs/assets/js/2.fe2f2116.js" defer></script><script src="/docs/assets/js/10.f0e8803c.js" defer></script>
+  </body>
+</html>

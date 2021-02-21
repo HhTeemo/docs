@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shell</title>
+    <meta name="generator" content="VuePress 1.8.1">
+    <link rel="icon" href="/docs/favicon.ico">
+    <meta name="description" content="阡陌拾光的随机记录">
+    <meta name="author" content="阡陌拾光">
+    <meta name="keywords" content="计算机，网络安全">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.d36127fc.css" as="style"><link rel="preload" href="/docs/assets/js/app.3eb96753.js" as="script"><link rel="preload" href="/docs/assets/js/2.fe2f2116.js" as="script"><link rel="preload" href="/docs/assets/js/11.db627387.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.f0e8803c.js"><link rel="prefetch" href="/docs/assets/js/12.6d037d26.js"><link rel="prefetch" href="/docs/assets/js/13.c2cc00df.js"><link rel="prefetch" href="/docs/assets/js/14.83a6b658.js"><link rel="prefetch" href="/docs/assets/js/15.52493eb6.js"><link rel="prefetch" href="/docs/assets/js/3.221c0ca6.js"><link rel="prefetch" href="/docs/assets/js/4.b42677c3.js"><link rel="prefetch" href="/docs/assets/js/5.e6d56040.js"><link rel="prefetch" href="/docs/assets/js/6.c9e7127b.js"><link rel="prefetch" href="/docs/assets/js/7.b983d2cc.js"><link rel="prefetch" href="/docs/assets/js/8.6ace368c.js"><link rel="prefetch" href="/docs/assets/js/9.76ecf518.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.d36127fc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/img/hero.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link">
+  about
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="os" class="dropdown-title"><span class="title">os</span> <span class="arrow down"></span></button> <button type="button" aria-label="os" class="mobile-dropdown-title"><span class="title">os</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Linux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/LinuxBasic.html" class="nav-link">
+  LinuxBasic
+</a></li><li class="dropdown-subitem"><a href="/docs/os/Nginx.html" class="nav-link">
+  Ngnix
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Windows
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/cmd.html" class="nav-link">
+  cmd
+</a></li><li class="dropdown-subitem"><a href="/docs/os/powershell.html" class="nav-link">
+  powershell
+</a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link">
+  about
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="os" class="dropdown-title"><span class="title">os</span> <span class="arrow down"></span></button> <button type="button" aria-label="os" class="mobile-dropdown-title"><span class="title">os</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Linux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/LinuxBasic.html" class="nav-link">
+  LinuxBasic
+</a></li><li class="dropdown-subitem"><a href="/docs/os/Nginx.html" class="nav-link">
+  Ngnix
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Windows
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/os/cmd.html" class="nav-link">
+  cmd
+</a></li><li class="dropdown-subitem"><a href="/docs/os/powershell.html" class="nav-link">
+  powershell
+</a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/docs/cloud/" aria-current="page" class="sidebar-link">/cloud/</a></li><li><a href="/docs/cloud/1.linux.html" class="sidebar-link">Linux 基础</a></li><li><a href="/docs/cloud/2.linux服务.html" class="sidebar-link">linux 服务</a></li><li><a href="/docs/cloud/3.shell.html" aria-current="page" class="active sidebar-link">Shell</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/cloud/3.shell.html#if-判断语句" class="sidebar-link">if 判断语句</a></li><li class="sidebar-sub-header"><a href="/docs/cloud/3.shell.html#循环语句" class="sidebar-link">循环语句</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="shell"><a href="#shell" class="header-anchor">#</a> Shell</h1> <div class="language- extra-class"><pre class="language-text"><code>#!/bin/bash
+read -p &quot;please input ipaddr:&quot; IP
+read -p &quot;please input netmask&quot; MASK
+read -p &quot;please input gateway&quot; WAY
+cd /etc/sysconfig/network-scripts/
+echo &quot;DEVICE=eth0&quot; &gt; ifcfg-eth0
+echo &quot;TYPE=Ethernet&quot; &gt;&gt; ifcfg-eth0
+echo &quot;ONBOOT=yes&quot; &gt;&gt; ifcfg-eth0
+echo &quot;BOOTPROTo=static&quot; &gt;&gt; ifcfg-eth0
+echo &quot;IPADDR=$IP&quot; &gt;&gt; ifcfg-eth0
+echo &quot;NETMASK=$MASK&quot; &gt;&gt; ifcfg-eth0
+echo &quot;GATEWAY=$WAY&quot; &gt;&gt; ifcfg-eth0
+ifdown eth0
+ifup eth0
+</code></pre></div><h2 id="if-判断语句"><a href="#if-判断语句" class="header-anchor">#</a> if 判断语句</h2> <div class="language- extra-class"><pre class="language-text"><code>if 条件
+    then 成立 子语句
+[elif 条件
+	then 子语句]
+else
+	不成立 子语句
+fi
+
+#!/bin/bash
+read -p &quot;please input ipaddr:&quot; IP
+if `ping -c2 -i0.2 -W2 $IP &amp;&gt; /dev/null`
+	then echo &quot;$IP is up&quot;
+else
+	echo &quot;$IP is down&quot;
+fi	
+</code></pre></div><h2 id="循环语句"><a href="#循环语句" class="header-anchor">#</a> 循环语句</h2> <p>for 根据取值列表循环</p> <p>while 根据条件进行循环</p> <div class="language- extra-class"><pre class="language-text"><code>for 变量 in 取值列表
+do
+    子语句
+done
+
+#!/bin/bash
+for i in {1..10}
+do
+    echo $i
+done
+
+while 条件
+do
+	子语句
+done
+
+#!/bin/bash
+NUM=0
+while [$NUM -lt 10]
+do
+	let $NUM++
+    echo $i
+done
+
+#!/bin/bash
+read -p &quot;please input netaddr:&quot; NET
+for IP in {1..254}
+do
+	if `ping -c2 -i0.2 -W2 $NET.$IP &amp;&gt; /dev/null`
+		then echo -e &quot;$NET.$IP is \033[31mup033[0m&quot;
+	else
+		echo -e &quot;$NET.IP is \033[32mdown033[0m&quot;
+	fi	
+done
+</code></pre></div><p>case 语句</p> <div class="language- extra-class"><pre class="language-text"><code>case 变量 in
+模式1)
+	子语句
+	;;
+模式2)
+	子语句
+	;;
+*)
+	子语句
+esac
+
+
+redhat(){
+	echo centos
+	return 0
+}
+centos(){
+	echo redhat
+	return 0
+}
+
+
+case $1 in
+readhat)
+    centos
+    ;;
+centos)
+    redhat
+    ;;
+*)
+    echo &quot;Useage $0 {redhat|centos}&quot;
+esac
+</code></pre></div><p>函数 将一部分代码存储到一个变量中</p> <p>echo $? 查看上一次函数的输出值</p> <p>chkconfig --list httpd 查看图形界面httpd服务能否重启后自启动</p> <p>chkconfig --list nginx</p> <p>写一个nginx的启动脚本</p> <p>/usr/local/nginx/sbin/nginx</p> <p>cd /etc/init.d</p> <p>vim nginxd</p> <div class="language- extra-class"><pre class="language-text"><code>#!/bin/bash
+# chkconfig - 84 18
+# description: nginx script
+nginx=/usr/local/nginx/sbin/nginx
+
+start() {
+	echo &quot;nginx starting ... [ ok ]&quot;
+	$nginx	
+}
+
+statis() {
+	if `ss -antpl | grep nginx &gt; /dev/null`
+	then echo &quot;nignx staring ...&quot;
+	else echo &quot;nignx stoping ...&quot;
+	fi
+}
+stop() {
+	ehco &quot;nginx stoping ... [ ok ]&quot;
+	$nginx -s stop
+}
+case $1 in
+start)
+	start
+	;;
+stop)
+	stop
+	;;
+status)
+	status
+	;;
+restart)
+	stop
+	start
+	;;
+*)
+	echo &quot;Usage :$0 {start|stop|status|restart}&quot;
+esac
+</code></pre></div><p>chkconfig --list nginxd</p> <p>chkconfig -add nginxd</p> <p>chkconfig --level 5 nginxd on	#5级别永久开启</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2021年2月21日星期日下午5点08分</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/cloud/2.linux服务.html" class="prev">
+        linux 服务
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.3eb96753.js" defer></script><script src="/docs/assets/js/2.fe2f2116.js" defer></script><script src="/docs/assets/js/11.db627387.js" defer></script>
+  </body>
+</html>
