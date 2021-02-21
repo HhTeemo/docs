@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
     titile: "阡陌拾光",
     description: "阡陌拾光的随机记录",
@@ -5,6 +7,18 @@ module.exports = {
       ['link', { rel: 'icon', href: '/favicon.ico' }],
       ['meta', { name: 'author', content: '阡陌拾光'}],
       ['meta', { name: 'keywords', content: '计算机，网络安全'}]
+    ],
+    plugins: [
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp) => {
+
+            moment.locale("zh-cn")
+            return moment(timestamp).format("LLLL")
+          }
+        }
+      ]
     ],
     themeConfig: {
       lastUpdated: '更新时间',
